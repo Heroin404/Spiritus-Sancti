@@ -1,0 +1,20 @@
+{
+	"schemaVersion": 1,
+	"id": "spartakfan",
+	"version": "${version}",
+	"name": "Spartak Fan",
+	"description": "Adds the Spartak Fan mob and its spawn egg.",
+	"authors": ["Oleg"],
+	"license": "All-Rights-Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["com.oleg.spartakfan.SpartakFanMod"],
+		"client": ["com.oleg.spartakfan.client.SpartakFanClient"]
+	},
+	"depends": {
+		"fabricloader": ">=0.15.0",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
